@@ -10,14 +10,14 @@ type Props = {
 export default function Feed({ posts, onTagClick, selectedTags }: Props) {
   return (
     <div className="feed">
-      {posts.map((p) => (
+      {posts.map((post) => (
         <div className="post">
-          <img src={p.imageUrl}></img>
+          <img src={post.imageUrl}></img>
           <div>
-            <p>{p.text}</p>
+            <p>{post.text}</p>
           </div>
           <div>
-            {p.tags.map((tag) => (
+            {post.tags.map((tag) => (
               <button
                 className={`tag ${selectedTags.includes(tag) ? "active" : ""}`}
                 onClick={() => onTagClick(tag)}

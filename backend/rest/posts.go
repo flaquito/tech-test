@@ -2,7 +2,6 @@ package rest
 
 import (
 	"database/sql"
-	"fmt"
 	"net/http"
 	"strconv"
 
