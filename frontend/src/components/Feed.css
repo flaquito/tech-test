@@ -1,0 +1,29 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.post {
+  width: fit-content;
+  text-align: center;
+
+  border: 1px solid black;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  border: 1px solid black;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  margin: 0.75rem;
+}
+
+.active {
+  background-color: rgb(176, 198, 239);
+}
