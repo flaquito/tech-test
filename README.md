@@ -156,6 +156,7 @@ When refining this further, I'd start by improving the error flow by introducing
 ```curl
 ❯ wscat -c ws://localhost:8080/ws        
 Connected (press CTRL+C to quit)
+# Upload post in another tab
 < {"id":35,"imageUrl":"http://localhost:8080/images/35.jpg","text":"Hello world","tags":["test","example"],"createdAt":"2026-03-03T20:13:14.392641+01:00"}
 ```
 
